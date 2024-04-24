@@ -23,21 +23,21 @@ body {
     font-weight: 500;
 }
 main{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 
 }
 
 article {
     background-color: var(--white);
     border-radius: 1rem;
-    min-width: clamp(350px, 75%, 750px);
+    width: clamp(350px, 75%, 750px);
     display: flex;
     flex-direction: column;
-    overflow: hidden;  
-
+    overflow: hidden; 
+    max-height:85% ;      
 }
 
 img {
@@ -117,6 +117,7 @@ section>button:active {
 @media screen and (min-width: 1024px) {
     article {
         flex-direction: row;
+        max-height: 75%;
      
     }
     section {
