@@ -21,6 +21,7 @@ body {
     max-height: 100svh;
     background-color: var(--cream);
     font-weight: 500;
+    
 }
 main{
   position: absolute;
@@ -28,16 +29,17 @@ main{
   left: 50%;
   transform: translate(-50%, -50%);
 
+
 }
 
 article {
     background-color: var(--white);
     border-radius: 1rem;
-    width: clamp(350px, 75%, 750px);
+ 
     display: flex;
     flex-direction: column;
     overflow: hidden; 
-    max-height:85% ;      
+   
 }
 
 img {
@@ -117,7 +119,8 @@ section>button:active {
 @media screen and (min-width: 1024px) {
     article {
         flex-direction: row;
-        max-height: 75%;
+       
+       
      
     }
     section {
