@@ -33,10 +33,11 @@ main{
 article {
     background-color: var(--white);
     border-radius: 1rem;
-    width: clamp(350px, 75%, 750px);
+    min-width: clamp(350px, 75%, 750px);
     display: flex;
     flex-direction: column;
-    overflow: hidden;       
+    overflow: hidden;  
+
 }
 
 img {
