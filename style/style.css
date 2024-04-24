@@ -123,6 +123,9 @@ section>button:active {
        
      
     }
+    picture{
+        max-width: 50%;
+    }
     section {
         justify-content: space-between;
         padding: 3rem 1.5rem;
